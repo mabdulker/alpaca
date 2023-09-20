@@ -1,4 +1,5 @@
-import React from 'react';
+import { React, useState } from 'react';
+import assets from '../App/Assets.js';
 
 function ImageGenerator() {
     return (
@@ -16,11 +17,28 @@ function Title(props) {
 }
 
 function ImagePane() {
+    const [background, setBackground] = useState(assets.backgrounds.blue50);
+
     return (
         <div>
-            <img src="./alpaca/backgrounds/blue50" alt="" />
+            <img id='background' src={background} alt="background" />
         </div>
     )
 }
+
+
+
+
+// function Background() {
+//     const [background, setBackground] = useState(assets.backgrounds.blue50);
+    
+//     function changeBackground(props) {    
+//         setBackground(assets.backgrounds.props.name);
+//     }
+
+//     return (
+//         <img src={background} alt="background" />
+//     )
+// }
 
 export default ImageGenerator;
