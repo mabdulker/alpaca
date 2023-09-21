@@ -1,0 +1,13 @@
+.image-container {
+  position: relative;
+  width: 300px; /* Adjust as needed */
+  height: 300px; /* Adjust as needed */
+}
+
+.overlay-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; /* Make the image fill the container */
+  height: 100%; /* Make the image fill the container */
+}
