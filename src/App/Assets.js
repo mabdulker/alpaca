@@ -1,13 +1,77 @@
 const assets = {
+    accessories: {
+        earings: require('../images/accessories/earings.png'),
+        glasses: require('../images/accessories/glasses.png'),
+        flower: require('../images/accessories/flower.png'),
+        headphone: require('../images/accessories/headphone.png'),
+    },
     backgrounds: {
         blue50: require('../images/backgrounds/blue50.png'),
+        blue60: require('../images/backgrounds/blue60.png'),
+        blue70: require('../images/backgrounds/blue70.png'),
+        darkblue30: require('../images/backgrounds/darkblue30.png'),
+        darkblue50: require('../images/backgrounds/darkblue50.png'),
+        darkblue70: require('../images/backgrounds/darkblue70.png'),
         green50: require('../images/backgrounds/green50.png'),
+        green60: require('../images/backgrounds/green60.png'),
+        green70: require('../images/backgrounds/green70.png'),
+        grey40: require('../images/backgrounds/grey40.png'),
+        grey70: require('../images/backgrounds/grey70.png'),
+        grey80: require('../images/backgrounds/grey80.png'),
         red50: require('../images/backgrounds/red50.png'),
+        red60: require('../images/backgrounds/red60.png'),
+        red70: require('../images/backgrounds/red70.png'),
         yellow50: require('../images/backgrounds/yellow50.png'),
+        yellow60: require('../images/backgrounds/yellow60.png'),
+        yellow70: require('../images/backgrounds/yellow70.png'),
+    },
+    ears: {
+        default: require('../images/ears/default.png'),
+        'tilt-backward': require('../images/ears/tilt-backward.png'),
+        'tilt-forward': require('../images/ears/tilt-forward.png'),
     },
     eyes: {
         default: require('../images/eyes/default.png'),
-    }
+        angry: require('../images/eyes/angry.png'),
+        naughty: require('../images/eyes/naughty.png'),
+        panda: require('../images/eyes/panda.png'),
+        smart: require('../images/eyes/smart.png'),
+        star: require('../images/eyes/star.png'),
+    },
+    hair: {
+        bang: require('../images/hair/bang.png'),
+        curls: require('../images/hair/curls.png'),
+        default: require('../images/hair/default.png'),
+        elegant: require('../images/hair/elegant.png'),
+        fancy: require('../images/hair/fancy.png'),
+        quiff: require('../images/hair/quiff.png'),
+        short: require('../images/hair/short.png'),
+    },
+    leg: {
+        'bubble-tea': require('../images/leg/bubble-tea.png'),
+        'cookie': require('../images/leg/cookie.png'),
+        default: require('../images/leg/default.png'),
+        'game-console': require('../images/leg/game-console.png'),
+        'tilt-backward': require('../images/leg/tilt-backward.png'),
+        'tilt-forward': require('../images/leg/tilt-forward.png'),
+    },
+    mouth: {
+        default: require('../images/mouth/default.png'),
+        astonished: require('../images/mouth/astonished.png'),
+        eating: require('../images/mouth/eating.png'),
+        laugh: require('../images/mouth/laugh.png'),
+        tongue: require('../images/mouth/tongue.png'),
+    },
+    neck: {
+        default: require('../images/neck/default.png'),
+        thick: require('../images/neck/thick.png'),
+        'bend-backward': require('../images/neck/bend-backward.png'),
+        'bend-forward': require('../images/neck/bend-forward.png'),
+    },
+    // nose: {
+    //     default: require('../images/nose.png'),
+    // },
+
 }
 
 export default assets;
