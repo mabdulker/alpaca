@@ -2,15 +2,14 @@ function Button(props) {
     return (<>
         {Object.keys(props.loc).map((key) => {
             return(
-                <button id={key} onClick={props.func}>
+                <button id={key} onClick={props.func}
+                value = {props.loc[key]}
+                className={props.giveClass && props.loc[key].split('/')[2]}
+                >
                 {key.toUpperCase()}
             </button>)
         })}
     </>)
 }
 
-const switchAccessory = (set) => (event) => {
-    set(event.target.id)
-}
-
-export { Button, switchAccessory };
+export default Button;

@@ -1,4 +1,4 @@
-const ImageMaker = ({imageData}) => {
+const ImagePane = ({imageData}) => {
     return (<>
         {Object.keys(imageData).map((image) => {
           return(
@@ -9,13 +9,4 @@ const ImageMaker = ({imageData}) => {
     );
 }
 
-function ImagePane(props) {
-    return (
-        <div class="image-container">
-            <img src={props.bg} alt="background" className='overlay-image'/>
-            <img src={props.eye} alt="eyes" className='overlay-image'/>
-        </div>
-    )
-}
-
-export default ImageMaker;
+export default ImagePane;

@@ -1,7 +1,8 @@
 import './App.css';
-import ImageMaker from '../components/ImagePane';
-import { Button, switchAccessory } from '../components/Button';
+import ImagePane from '../components/ImagePane';
+import Button from '../components/Button';
 import assets from './Assets';
+import switchAccessory from '../utils/switchAccessory';
 import { useState } from 'react';
 
 function App() {
@@ -23,7 +24,7 @@ function App() {
     <div className='wrap'>
       <div className="alpaca">
         <div className='left'>
-          <ImageMaker imageData={imageData} />
+          <ImagePane imageData={imageData} />
         </div>
         <div className='right'>
           <div className='right-top'>
@@ -32,7 +33,7 @@ function App() {
           </div>
           <div className='right-bottom'>
             <h3>Styles</h3>
-            <Button loc={assets[accessory] }/>
+            <Button loc={assets[accessory]} giveClass={true}/>
           </div>
         </div>
       </div>
