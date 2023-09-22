@@ -68,9 +68,9 @@ const assets = {
         'bend-backward': require('../images/neck/bend-backward.png'),
         'bend-forward': require('../images/neck/bend-forward.png'),
     },
-    // nose: {
-    //     default: require('../images/nose.png'),
-    // },
+    nose: {
+        default: require('../images/nose.png'),
+    },
 
 }
 

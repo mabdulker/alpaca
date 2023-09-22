@@ -1,3 +1,14 @@
+const ImageMaker = ({imageData}) => {
+    return (<>
+        {Object.keys(imageData).map((image) => {
+          return(
+            <img src={imageData[image][0]} alt={image} style={{position: 'absolute'}}/>
+            )
+        })} 
+    </>
+    );
+}
+
 function ImagePane(props) {
     return (
         <div class="image-container">
@@ -7,4 +18,4 @@ function ImagePane(props) {
     )
 }
 
-export default ImagePane;
+export default ImageMaker;
